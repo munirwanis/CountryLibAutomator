@@ -3,9 +3,9 @@ Swift script to generate Country enumerator with emoji and local language countr
 
 ## How to use it?
 
-Just download [`Country.swift`](https://github.com/munirwanis/CountryLibAutomator/blob/master/CountryLibAutomator/Country.swift) file and start using!
+Just download [`Country.swift`](https://github.com/munirwanis/CountryLibAutomator/blob/master/CountryLibAutomator/Country.swift) file to start using!
 
-And see for yourself:
+See for yourself:
 
 ```swift
 let brazil = Country.br
