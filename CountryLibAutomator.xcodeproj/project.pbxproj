@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A10800CA1FD9E30500E9FBC4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10800C91FD9E30500E9FBC4 /* main.swift */; };
+		A10800D21FD9E5A900E9FBC4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10800D11FD9E5A900E9FBC4 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A10800C61FD9E30500E9FBC4 /* CountryLibAutomator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CountryLibAutomator; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10800C91FD9E30500E9FBC4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A10800D01FD9E34F00E9FBC4 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		A10800D11FD9E5A900E9FBC4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A10800C91FD9E30500E9FBC4 /* main.swift */,
+				A10800D01FD9E34F00E9FBC4 /* countries.json */,
+				A10800D11FD9E5A900E9FBC4 /* Country.swift */,
 			);
 			path = CountryLibAutomator;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10800CA1FD9E30500E9FBC4 /* main.swift in Sources */,
+				A10800D21FD9E5A900E9FBC4 /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
